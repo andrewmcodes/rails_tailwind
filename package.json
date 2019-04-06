@@ -5,6 +5,7 @@
     "@rails/webpacker": "^4.0.2"
   },
   "devDependencies": {
+    "tailwindcss": "^1.0.0-beta.4",
     "webpack-dev-server": "^3.2.1"
   }
 }
