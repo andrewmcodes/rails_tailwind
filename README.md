@@ -10,7 +10,7 @@ cd rails_tailwind
 rails db:create
 ```
 
-This will create a new Rails project for you with webpack and postgres configured for you and create our databases. We will not use coffeescript, which is why we add the `--skip-coffee` flag. You can also ommit the `-d postgresql` flag if you like, but if you want to deploy to something like Heroku, I would recommend adding it.
+This will create a new Rails project for you with webpack and Postgres configured for you and create our databases. We will not use coffeescript, which is why we add the `--skip-coffee` flag. You can also ommit the `-d postgresql` flag if you like, but if you want to deploy to something like Heroku, I would recommend adding it. If you keep the Postgres flag, make sure you have Postgres install and it is running. You can install Postgres on macOS by running `brew install postgresql && brew services start postgresql`
 
 ## Running Rails and Webpack
 
@@ -70,8 +70,7 @@ _Note: At the time of writing this, TailwindCSS v1.0 is still in beta so we will
 Run the following commands in your terminal:
 
 ```sh
-yarn add tailwindcss@next --dev
-./node_modules/.bin/tailwind init
+yarn add tailwindcss@next --dev && ./node_modules/.bin/tailwind init
 ```
 
 This should add Tailwind to your `package.json` as well as create a `tailwind.config.js` file at the root of your project. This file can be used to customize the tailwind defaults. Read more [here](https://next.tailwindcss.com/docs/configuration)
