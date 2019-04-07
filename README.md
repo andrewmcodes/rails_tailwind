@@ -41,3 +41,7 @@ end
 ```
 
 Now, it is time to add TailwindCSS.
+
+```sh
+./node_modules/.bin/tailwind init
+```
