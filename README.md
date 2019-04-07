@@ -61,7 +61,7 @@ end
 
 Restart your Rails server, and now you should see the following on `localhost:3000`
 
-![home index](https://i.imgur.com/ZDBDmK1.png)
+![home index](https://i.imgur.com/A47j9dx.png)
 
 ## Install TailwindCSS
 
@@ -158,7 +158,7 @@ to:
 
 Restart the Rails server and webpack-dev-server and you should now see the following on `localhost:3000`
 
-![tailwind home index](https://i.imgur.com/6MKs0wA.png)
+![tailwind home index](https://i.imgur.com/C64oFFy.png)
 
 Tailwind should now be working so lets tweak our views to see some Tailwind goodness.
 
@@ -201,7 +201,7 @@ to:
 
 You should now see the following page when you navigate to `localhost:3000`
 
-![updated tailwind home index](https://i.imgur.com/ivqrOSv.png)
+![updated tailwind home index](https://i.imgur.com/okfqCoS.png)
 
 And now you have TailwindCSS working in your Rails app!
 
