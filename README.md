@@ -93,18 +93,18 @@ Your `postcss.config.js` file should now look like this:
 ```js
 module.exports = {
   plugins: [
-    require('tailwindcss'),
-    require('autoprefixer'),
-    require('postcss-import'),
-    require('postcss-flexbugs-fixes'),
-    require('postcss-preset-env')({
+    require("tailwindcss"),
+    require("autoprefixer"),
+    require("postcss-import"),
+    require("postcss-flexbugs-fixes"),
+    require("postcss-preset-env")({
       autoprefixer: {
-        flexbox: 'no-2009'
+        flexbox: "no-2009"
       },
       stage: 3
     })
   ]
-}
+};
 ```
 
 ## Configure Tailwind
@@ -144,7 +144,7 @@ Paste the following into our new `stylesheets.css` file. _This is straight from 
 Add the following line in `app/frontend/packs/application.js`:
 
 ```js
-import './stylesheets.css'
+import "./stylesheets.css";
 ```
 
 The last step is to tell Rails to use our packs. In `app/views/layouts/application.html.erb`, change:
